@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+header {
+    max-width: 1440px;
+    height: 669px;
+    margin: 0 auto;
+    background-image: url('../images/donation1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(0, 0, 0, 0.9);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header-title {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    max-width: 826px;
+}
+
+.section-descriptions {
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    max-width: 691px;
+}
+
+.btn-primary {
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    width: 160px;
+    padding: 16px 12px;
+    border-radius: 5px;
+    background-color: #FF5959;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
